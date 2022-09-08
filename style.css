@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-converter{
+    width: 550px;
+    height: 728px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
