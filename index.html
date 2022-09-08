@@ -7,10 +7,9 @@
         <link rel="stylesheet" href="style.css">
         <title>Unit Converter App</title>
     </head>
-    <body>
+    <body style="background: white;">
         <div class="container">
             <div class="container-converter">
-                <!-- <div class="converter"> -->
                 <div class="header">
                     <div class="title">
                         <h1>Metric/Imperial Unit Conversion</h1>
@@ -19,22 +18,22 @@
                         <input type="text" id="number-el" value="0">
                     </div>
                     <button id="convert-btn">Convert</button>
+                    <button id="dark-btn">Darkmode</button>
                 </div>
-                <div class="converters">
-                    <div class="length-converter">
-                        <h3>Length (Meter/Feet)</h3>
-                        <p id="length-el"></p>
+                <div class="converters" id="converters-switch">
+                    <div class="length-converter box-switch">
+                        <h3 class="title-switch">Length (Meter/Feet)</h3>
+                        <p class="p-switch" id="length-el"></p>
                     </div>
-                    <div class="volume-converter">
-                        <h3>Volume (Liters/Gallons)</h3>
-                        <p id="volume-el"></p>
+                    <div class="volume-converter box-switch">
+                        <h3 class="title-switch">Volume (Liters/Gallons)</h3>
+                        <p class="p-switch" id="volume-el"></p>
                     </div>
-                    <div class="mass-converter">
-                        <h3>Mass (Kilograms/Pounds)</h3>
-                        <p id="mass-el"></p>
+                    <div class="mass-converter box-switch">
+                        <h3 class="title-switch">Mass (Kilograms/Pounds)</h3>
+                        <p class="p-switch" id="mass-el"></p>
                     </div>
                 </div>
-                <!-- </div> -->
             </div>
         </div>
         <script src="main.js"></script>
