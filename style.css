@@ -18,4 +18,92 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.header, .converters{
+    width: 550px;
+    max-width: 550px;
+    text-align: center;
+}
+
+.header{
+    width: 550px;
+    max-width: 550px;
+    max-height: 285px;
+    padding: 32px 0;
+    background: #6943FF;
+}
+
+.title{
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#number-el{
+    width: 112px;
+    height: 80px;
+    max-width: 112px;
+    max-height: 80px;
+    margin-bottom: 28px;
+    background: none;
+    border: 2px solid #B295FF;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFFFFF;
+
+}
+
+#convert-btn{
+    width: 117px;
+    height: 42px;
+    background: #fff;
+    box-shadow: 4px 4px 13px -7px #000000, 2px 2px 10px 5px #B295FF;
+    border: none;
+    border-radius: 6px;
+}
+
+.converters{
+    height: 729px;
+    max-height: 729px;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+.converters > div{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #FFF;
+    border-radius: 6px;
+}
+
+.converters > div > h3 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    color: #5A537B;
+
+
+}
+
+.converters > div > p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+
+}
+
+.length-converter, .volume-converter{
+    margin-bottom: 0 !important;
 }
