@@ -19,6 +19,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
 }
 
 .header, .converters{
@@ -70,6 +72,7 @@ body{
     box-shadow: 4px 4px 13px -7px #000000, 2px 2px 10px 5px #B295FF;
     border: none;
     border-radius: 6px;
+    font-family: 'Inter';
     cursor: pointer;
 }
 
@@ -129,5 +132,6 @@ button:active{
     box-shadow: 4px 4px 13px -7px #000000, 2px 2px 10px 5px #B295FF;
     border: none;
     border-radius: 4px;
+    font-family: 'Inter';
     cursor: pointer;
 }
