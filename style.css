@@ -12,8 +12,11 @@ body{
     align-items: center;
 }
 
-.container-converter{
+.width{
     width: 550px;
+}
+
+.container-converter{
     height: 728px;
     display: flex;
     justify-content: center;
@@ -24,15 +27,12 @@ body{
 }
 
 .header, .converters{
-    width: 550px;
     max-width: 550px;
     text-align: center;
 }
 
 .header{
     position: relative;
-    width: 550px;
-    max-width: 550px;
     max-height: 285px;
     padding: 32px 0;
     background: #6943FF;
@@ -134,4 +134,83 @@ button:active{
     border-radius: 4px;
     font-family: 'Inter';
     cursor: pointer;
+}
+
+@media screen and (max-width: 570px) {
+    .width{
+        width: 400px;
+    }
+
+    .container-converter{
+        height: 590px;
+    }
+
+    .title{
+        margin-bottom: 18px;
+        font-size: 10px;
+    }
+
+    #number-el{
+        width: 80px;
+        height: 66px;
+        font-size: 40px;
+    }
+    
+    .converters > div {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 14px;
+    }
+
+    .mass-converter{
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .width{
+        width: 320px;
+    }
+
+    .container-converter{
+        height: 450px;
+    }
+    
+    .header{
+        padding: 12px 0;
+    }
+
+    .title{
+        margin-bottom: 18px;
+        font-size: 8px;
+    }
+
+    #number-el{
+        width: 60px;
+        height: 48px;
+        margin-bottom: 18px;
+    }
+
+    #convert-btn{
+        width: 90px;
+        height: 32px;
+    }
+    
+    .converters > div {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 14px;
+    }
+
+    .converters > div > h3 {
+        font-size: 14px;
+    }
+    
+    .converters > div > p {
+        font-size: 10px;
+    }
+
+    .mass-converter{
+        margin-bottom: 14px;
+    }
 }
